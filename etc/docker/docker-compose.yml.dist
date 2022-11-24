@@ -1,0 +1,10 @@
+version: '2'
+services:
+  fpm:
+    build:
+      dockerfile: etc/docker/development/fpm/Dockerfile
+      context: .
+    depends_on:
+      - mysql
+    volumes:
+      - ./:/app/
