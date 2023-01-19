@@ -14,4 +14,8 @@ class PaymentMethod extends AbstractEnum
     public const BANCONTACT = 'BANCONTACT';
     public const SEPA = 'SEPA';
     public const APPLE_PAY = 'APPLE_PAY';
+    public const SOFORT = 'SOFORT';
+    public const EPS = 'EPS';
+    public const GIROPAY = 'GIROPAY';
+    public const PRZELEWY24 = 'PRZELEWY24';
 }
